@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.textI {
+    opacity: 70%;
+    transition: 0.5s;
+    cursor: default;
+    font-family: 'IBM Plex Mono', monospace;
+
+    text-align: center;
+
+    color: #8a9af9;
+}
+
+.textI:hover {
+    opacity: 100%;
+    color: #eee;
+}
+
+
+.container {
+    background: linear-gradient(to right, #0d141e, #1a2134);
+    background-color: #333;
+    
+
+    width: 100%;
+    height: 98vh;
+}
+
+.calculadora {
+    position:absolute;
+    background-color: #040b13;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 3px 5px 8px #111;
+
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+
+    opacity: 90%;
+}
+
+#resultado {
+    background-color: transparent;
+    border-bottom: 4px solid #eee;
+    color: #fff;
+
+    width: 320px;
+    height: 70px;
+    
+    margin-bottom: 15px;
+    padding: 15px;
+
+    opacity: 90%;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    font-weight: 500;
+    font-size: 35px;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+    cursor: default;
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    border: 0;
+    
+    background-color: transparent;
+    color: #eee;
+
+    transition: 0.2s;
+    
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 27px;
+    font-weight: 900;
+
+    cursor: pointer;
+}
+.botao:hover {
+    color: #5c65c0;
+}
+
+
+.botao:active{
+    color: #5c65c0;
+    background-color: #eee;
+
+    box-shadow: 0px 0px 4px #ddd;
+}
+
+#igual {
+    height: 106px;
+}
+
+#zero {
+    width: 106px;
+}
+
+.function {
+    color: #8a9af9;
+}
+.function:hover {
+    color: #fff;
+}
+.function:active {
+    color: #8a9af9;
+}
+
+#igual {
+    border-radius: 50%;
+    background-color: #8a9af9;
+    width: 80px;
+    height: 80px;
+}
+#igual:hover {
+    color: #8a9af9;
+    background-color: #fff;
+
+}

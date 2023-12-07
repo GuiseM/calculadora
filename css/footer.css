@@ -1,0 +1,17 @@
+footer {
+    background: linear-gradient(to right, #0d141e, #1a2134);
+    color: #ddd;
+    width: 100%;
+
+    text-align: center;
+}
+
+footer p {
+    opacity: 60%;
+    
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+
+    cursor: default;
+}
+
